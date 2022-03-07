@@ -1,3 +1,5 @@
+			// CONTOH SAJA
+			
 			views/welcome.blade.php
 			
 			
