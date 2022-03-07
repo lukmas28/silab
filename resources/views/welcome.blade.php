@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Jurusan Teknologi  2
                 </div>
 
                 <div class="links">
@@ -96,5 +96,7 @@
                 </div>
             </div>
         </div>
+
+        
     </body>
 </html>

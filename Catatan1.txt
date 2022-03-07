@@ -1,0 +1,50 @@
+			views/welcome.blade.php
+			
+			
+			<div class="content">
+                
+				// START : DIGANTI
+				<div class="title m-b-md">
+                    Jurusan Teknologi Informasi
+                </div>
+
+                <div class="links">
+                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://laravel-news.com">News</a>
+                    <a href="https://blog.laravel.com">Blog</a>
+                    <a href="https://nova.laravel.com">Nova</a>
+                    <a href="https://forge.laravel.com">Forge</a>
+                    <a href="https://vapor.laravel.com">Vapor</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                </div>
+				//END
+				
+				// START : PENGGANTI
+					<h1>SISTEM INFORMASI LABORATORIUM</h1>
+					<ul>
+						<li><a href="/about">About</a></li>
+						<li><a href="/gallery">Gallery</a></li>
+					</ul>
+				// END
+            </div>
+			
+			Add -> File
+			views/about.blade.php
+			<h1>ABOUT</h1>
+			
+			views/gallery.blade.php
+			<h1>GALLERY</h1>
+			
+			
+			PENGATURAN ROUTES
+			routes/web.php
+			
+			Route::get('/', function () {
+				return view('welcome');
+			});
+
+			Route::get('/about', function () {
+				return 'about';
+			});
+			Route::view('/gallery', 'gallery');
